@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'norwester';
+    src: url(../Font/norwester.otf) format("truetype");
+}
+
+*{
+    font-family: 'norwester';
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    margin: 210px 0 0 150px;
+    width: 75%;
+    background: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo{
+    position: absolute;
+    top: -150px;
+    width: 440px;
+    height: 370px;
+    z-index: 2;
+}
+
+.container > div{
+    font-size: 38px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.container > div > section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.separacion{
+    border: 2px dashed black;
+}
+
+.plus{
+    margin-left: 50px;
+}
+
+.container > div > section:last-child{
+    margin-bottom: 85px;
+    margin-top: 40px;
+}
+
+.container > div > section:last-child > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div > section:last-child > div:nth-child(2){
+    align-items: end;
+    font-size: 30px;
+    gap: 10px;
+}
+
+.container > div > section:last-child > div:nth-child(1) > span:last-child{
+    font-size: 30px;
+}
